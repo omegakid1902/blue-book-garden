@@ -114,7 +114,7 @@ jobs:
           #deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
-          publish_branch: gh-pages
+          publish_branch: gh-pages-blue-book
           allow_empty_commit: true
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
