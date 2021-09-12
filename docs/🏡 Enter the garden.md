@@ -11,23 +11,24 @@ publish: True
 ---
 # Enter the garden
 
-## Tools:
+Chào mừng bạn đã đến với khu vườn ghi chú.
+
+## Công cụ:
 [[📌 Workbench]]
 
 [[⏩ Quick note]]
 
 [[📑 Bookmark]]
 
-## Entertainment
+## Giải trí
 [[🏡 Phim hay]]
 
-## Research
+## Nghiên cứu
 [[❕ Topics to research]]
 
-[[Lịch Sử Việt Nam]]
+[[🏡 Lịch Sử Việt Nam]]
 
 [[🏡 Lịch sử Trung Quốc]]
 
 [[🏡 Health]]
 
-Test tí hehe
