@@ -1,5 +1,5 @@
 ---
-name: github pages
+name: Blue book (Mkdocs) github pages
 
 on:
   push:
@@ -60,13 +60,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          #git clone https://github.com/omegakid1902/zettelkasten.git
-          git submodule init
-          git submodule update
-          cd zettelkasten
-          git checkout origin/main
-          ls
-          cd ..
+          git clone https://github.com/omegakid1902/zettelkasten.git
 
       - uses: actions/checkout@v2
 #      - name: Create report file
@@ -87,7 +81,7 @@ jobs:
           git add zettelkasten/
           git diff-index --quiet HEAD \
             || git commit -m "gh-pages build number #${{ github.run_number }}"
-          git push origin main
+          git push origin lyz-code/blue-book
 
       - uses: mukunku/tag-exists-action@v1.0.0
         id: checkTag
