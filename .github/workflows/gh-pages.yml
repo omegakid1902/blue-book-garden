@@ -3,9 +3,21 @@ name: github pages
 
 on:
   push:
+    # Sequence of patterns matched against refs/heads
     branches:
-      - main
+      # Push event on branch master
+      #- master
+      
+      # Push event on branch lyz-code/blue-book
       - 'lyz-code/blue-book'
+
+      # Push events to branches matching refs/heads/releases/10
+      #- 'releases/**'
+
+    #tags:        
+    #  - v1             # Push events to v1 tag
+    #  - v1.*           # Push events to v1.0, v1.1, and v1.9 tags
+
   schedule:
     - cron: 11 06 * * *
 
@@ -100,7 +112,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          branch: 'lyz-code/blue-book'
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.7.3
