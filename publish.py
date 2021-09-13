@@ -3,8 +3,8 @@ import frontmatter
 from shutil import copy
 import os
 
-if not os.path.exists('./content'):
-    os.mkdir('./content')
+if not os.path.exists('./docs'):
+    os.mkdir('./docs')
 
 for file in os.listdir("./zettelkasten/"):
     if file.endswith(".md"):
@@ -12,8 +12,8 @@ for file in os.listdir("./zettelkasten/"):
             content = f.read()
             metadata, content = frontmatter.parse(content)
             if 'publish' in metadata.keys():
-                print("Copy publish files from zettelkasten to content/")
-                copy(os.path.join("./zettelkasten/", file), './content/')
+                print("Copy publish files from zettelkasten to docs/")
+                copy(os.path.join("./zettelkasten/", file), './docs/')
             else:
                 pass
 
@@ -24,8 +24,8 @@ for root, dirs, files in os.walk("./zettelkasten/Zet/"):
                 content = f.read()
                 metadata, content = frontmatter.parse(content)
                 if 'publish' in metadata.keys():
-                    print("Copy publish files from zettelkasten to content/")
+                    print("Copy publish files from zettelkasten to docs/")
                     print(os.path.join(root, file))
-                    copy(os.path.join(root, file), './content/')
+                    copy(os.path.join(root, file), './docs/')
                 else:
                     pass
