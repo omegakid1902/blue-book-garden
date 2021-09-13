@@ -9,6 +9,8 @@ on:
       # Push event on branch lyz-code/blue-book
       - 'lyz-code/blue-book'
 
+  repository_dispatch:
+    types: [update_zettelkasten]
 
 jobs:
   deploy:
