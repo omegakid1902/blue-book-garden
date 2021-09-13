@@ -8,7 +8,7 @@ tags:
   - '#permanent/concept'
 aliases:
   - 🏡 Lịch sử Trung Quốc
-publish: False
+publish: True
 ---
 # Lịch sử Trung Quốc
 
