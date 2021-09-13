@@ -1,9 +1,1 @@
-1631377165
-2
-Mon Sep 13 07:12:49 UTC 2021 Zetelkaste repo changed
-manual test
-Mon Sep 13 07:19:05 UTC 2021 Zetelkaste repo changed
-manual test 2
-Mon Sep 13 07:28:25 UTC 2021 Zetelkaste repo changed
-Mon Sep 13 07:43:22 UTC 2021 Zetelkaste repo changed
-Mon Sep 13 07:52:14 UTC 2021 Zetelkaste repo changed
+2021-09-13 08:07:20-13: Changed in lyz-code/blue-book branch
