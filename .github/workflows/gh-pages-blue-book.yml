@@ -5,21 +5,9 @@ on:
   push:
     # Sequence of patterns matched against refs/heads
     branches:
-      # Push event on branch master
-      #- master
-      
       # Push event on branch lyz-code/blue-book
       - 'lyz-code/blue-book'
 
-      # Push events to branches matching refs/heads/releases/10
-      #- 'releases/**'
-
-    #tags:        
-    #  - v1             # Push events to v1 tag
-    #  - v1.*           # Push events to v1.0, v1.1, and v1.9 tags
-
-  schedule:
-    - cron: 11 06 * * *
 
 jobs:
   deploy:
@@ -93,12 +81,6 @@ jobs:
       - name: check tag
         run: echo ${{ steps.checkTag.outputs.exists }}
 
-#      - name: Create tag
-#        if: ${{ steps.checkTag.outputs.exists == 'false' }}
-#        run: |
-#          git tag gh-page-build.#${{ github.run_number }}
-#          git push origin gh-page-build.#${{ github.run_number }}
-
       - name: Make the site
         run: make build-docs
 
@@ -111,7 +93,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:
-          #deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
           publish_branch: gh-pages-blue-book
