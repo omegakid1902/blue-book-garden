@@ -1,2 +1,1 @@
-2021-09-14 16:19:05-build.12: Zetelkaste repo changed
-Manual
+2021-09-14 17:06:46-build.15: Changed in lyz-code/blue-book branch
