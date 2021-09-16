@@ -5,9 +5,7 @@ on:
   push:
     # Sequence of patterns matched against refs/heads
     branches:
-
-      # Push event on branch lyz-code/blue-book
-      - 'lyz-code/blue-book'
+      - main
 
   repository_dispatch:
     types: [update_zettelkasten]
@@ -59,23 +57,23 @@ jobs:
           #git config --local user.name "GitHub Action"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          echo "$(date '+%Y-%m-%d %H:%M:%S')-build.${{ github.run_number }}: Changed in lyz-code/blue-book branch" > report.txt
+          echo "$(date '+%Y-%m-%d %H:%M:%S')-build.${{ github.run_number }}: Changed in lyz-code/blue-book branch" >> build.log
           git add requirements.txt # git add docs/newsletter
           git add docs/
-          git add report.txt
+          git add build.log
           rm -rf zettelkasten
           git diff-index --quiet HEAD \
             || git commit -m "gh-pages build number #${{ github.run_number }}"
-          git push origin lyz-code/blue-book
+          git push origin main
 
       - name: Make the site
         run: make build-docs
 
-      - name: Push changes
+      - name: Push changes to main branch
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: 'lyz-code/blue-book'
+          branch: main
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.7.3
