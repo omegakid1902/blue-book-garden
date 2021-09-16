@@ -80,10 +80,18 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
-          publish_branch: gh-pages-blue-book
+          publish_branch: gh-pages
           allow_empty_commit: true
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           #commit_message: ${{ github.event.head_commit.message }}
           #tag_name: ${{ steps.prepare_tag.outputs.deploy_tag_name }}
           #tag_message: 'Deployment ${{ steps.prepare_tag.outputs.tag_name }}'
+
+      - name: Alert repository_dispatch to omegakid1902.github.io repo
+        uses: mvasigh/dispatch-action@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repo: omegakid1902.github.io
+          owner: omegakid1902
+          event_type: publish_bluebook
