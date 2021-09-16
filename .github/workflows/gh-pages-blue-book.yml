@@ -42,11 +42,10 @@ jobs:
 
       - name: Clone zettelkasten
         run: |
-
+          cd ..
           git clone https://github.com/omegakid1902/zettelkasten.git
+
       - uses: actions/checkout@v2
-#      - name: Create report file
-#        run: date +%s > report.txt
 
       - name: Scan md file to publish
         run: python publish.py
