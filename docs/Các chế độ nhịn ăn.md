@@ -35,10 +35,6 @@ FAQ
 [[❕ Bạn có thể bỏ bất kỳ một bữa nào đó cũng là cách đơn giản nhất để thực hiện chế độ nhịn ăn]]
 
 ## Tham khảo:
-[[Health]]
-```dataview
-list
-from [[Các chế độ nhịn ăn]]
-sort file.name asc
-```
-[^1]:https://www.healthline.com/nutrition/intermittent-fasting-guide
+- [[Health]]
+
+https://www.healthline.com/nutrition/intermittent-fasting-guide
