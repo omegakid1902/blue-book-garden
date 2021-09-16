@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    
+    <title>Digital Garden</title>
+    <description>My personal digital garden</description>
+    <link>https://omegakid1902.github.io</link>
+    <atom:link href="https://omegakid1902.github.io/yearly.xml" rel="self" type="application/rss+xml"/>
+
+    
+    <managingEditor>Dung Tran</managingEditor>
+
+    
+    <pubDate>2021-09-16 01:19:45.942840</pubDate>
+    <ttl>525600</ttl>
+
+    
+    <generator>mkdocs-newsletter - v0.3.1</generator>
+
+    
+    
+    <image><url>None</url><title>Digital Garden</title>
+      <link>https://omegakid1902.github.io</link>
+    </image>
+    
+
+    
+    
+  </channel>
+</rss>
