@@ -91,7 +91,7 @@ jobs:
       - name: Alert repository_dispatch to omegakid1902.github.io repo
         uses: mvasigh/dispatch-action@main
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.BLUEBOOK_SECRET }}
           repo: omegakid1902.github.io
           owner: omegakid1902
           event_type: publish_bluebook
