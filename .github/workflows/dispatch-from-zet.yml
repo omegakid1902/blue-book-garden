@@ -1,0 +1,12 @@
+name: Detect changes from Zettelkasten repo
+
+on:
+  repository_dispatch:
+    types: [update_zettelkasten]
+
+jobs:
+  build-sh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print some things
+        run: echo "Zettelkasten's just updated!!!!"
