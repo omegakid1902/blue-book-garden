@@ -5,8 +5,8 @@ tags:
   - '#created/2021/Sep/05'
   - '#seed🥜'
   - '#permanent/people'
-birth: 2298 TCN
-death: 2198 TCN
+birth: 2298
+death: 2198
 aliases:
   - Hạ Tử Thành
   - Hạ Đại Vũ

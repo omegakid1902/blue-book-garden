@@ -15,7 +15,7 @@ publish: True
 # Trần Hưng Đạo
 
 ## Notes:
-Trần Hưng Đạo tên thật là Trần Quốc Tuấn, là một nhà quân sự, chính trị trong hoàng thất [[🏡 Nhà Trần|Nhà Trần]].
+Trần Hưng Đạo tên thật là Trần Quốc Tuấn, là một nhà quân sự, chính trị trong hoàng thất [[Nhà Trần|Nhà Trần]].
 [[Trần Hưng Đạo là con trai Trần Liễu]]. [[Trần Liễu là anh trai của vua Trần Thái Tông]].
 
 

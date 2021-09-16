@@ -1,6 +1,6 @@
 ---
 title: "Bảo Đại"
-UID: P-210717-1330
+UID: 2107171330
 tags:
   - '#created/2021/Jul/17'
   - '#permanent/people'

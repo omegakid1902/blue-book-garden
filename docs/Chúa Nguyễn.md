@@ -1,7 +1,6 @@
 ---
 title: Chúa Nguyễn
-UID: P-210714-0826
-created: 
+UID: 2107140826
 tags:
   - '#created/2021/Jul/14'
   - '#seed🥜'

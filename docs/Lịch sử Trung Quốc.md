@@ -1,5 +1,5 @@
 ---
-title: 🏡 Lịch sử Trung Quốc
+title: Lịch sử Trung Quốc
 UID: 
 created: 
 tags:
@@ -7,7 +7,7 @@ tags:
   - '#garden🏡'
   - '#permanent/concept'
 aliases:
-  - 🏡 Lịch sử Trung Quốc
+  - Lịch sử Trung Quốc
 publish: False
 ---
 # Lịch sử Trung Quốc
@@ -75,6 +75,6 @@ publish: False
 ## Related:
 ```dataview
 list
-from [[~Lịch sử Trung Quốc]]
+from [[Lịch sử Trung Quốc]]
 sort file.name asc
 ```

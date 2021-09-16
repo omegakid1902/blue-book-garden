@@ -21,15 +21,15 @@ Chào mừng bạn đã đến với khu vườn ghi chú.
 [[📑 Bookmark]]
 
 ## Giải trí
-[[🏡 Phim hay]]
+[[Phim hay]]
 
 ## Nghiên cứu
 [[❕ Topics to research]]
 
 [[Lịch Sử Việt Nam]]
 
-[[🏡 Lịch sử Trung Quốc]]
+[[Lịch sử Trung Quốc]]
 
-[[🏡 Health]]
+[[Health]]
 
 Test 2

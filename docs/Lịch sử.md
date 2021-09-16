@@ -14,9 +14,9 @@ publish: True
 
 ## Notes:
 - [[Homo Sapiens]]
-- [[🏡 Lịch Sử Việt Nam]]
+- [[Lịch Sử Việt Nam]]
 - [[Lịch Sử Do Thái]]
-- [[🏡 Lịch sử Trung Quốc]]
+- [[Lịch sử Trung Quốc]]
 - [[Ai Cập Cổ Đại]]
 
 ## Ideas & thoughts:
