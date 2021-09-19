@@ -6,8 +6,6 @@ tags:
   - '#created/2021/Jul/24'
   - '#garden🏡'
   - '#permanent/concept'
-aliases:
-  - Lịch sử Trung Quốc
 publish: False
 ---
 # Lịch sử Trung Quốc

@@ -5,8 +5,6 @@ tags:
   - '#created/2021/Aug/26'
   - '#🏡'
   - '#permanent/concept'
-aliases:
-  - Enter the garden
 publish: True
 ---
 # Enter the garden
