@@ -29,7 +29,7 @@ publish: False
 [[Đông Ngô]]
 [[Nhà Tấn]]
 [[Nhà Tống]]
-[[Nhà Nguyên]]
+[[Nhà Nguyên-Mông]]
 [[Nhà Đại Lý]]
 [[Nhà Thanh]]
 [[Thái Bình Thiên Quốc]]

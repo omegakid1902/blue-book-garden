@@ -35,7 +35,7 @@ Lợi dụng điểm yếu này, quân nhà Trần đã thực hiện kế hoạ
 
 
 
-[[Nhà Nguyên|Quân Nguyên]] do [[Toa Đô]] chỉ huy đánh xuống [[Chiêm Thành]] theo đường biển tạo thế vây đánh [[Đại Việt]]. 
+[[Nhà Nguyên-Mông|Quân Nguyên]] do [[Toa Đô]] chỉ huy đánh xuống [[Chiêm Thành]] theo đường biển tạo thế vây đánh [[Đại Việt]]. 
 Chiêm Thành là một quốc gia nằm phía nam Đại Việt lúc đó, tiềm lực yếu hơn nhiều so với Đại Việt.
 
 ## Related:
