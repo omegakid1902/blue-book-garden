@@ -6,7 +6,9 @@ tags:
   - '#created/2021/Sep/20'
   - '#seed🥜'
   - '#permanent/concept'
-publish: False
+aliases:
+  - Thiên Thần mang ánh sáng
+publish: True
 ---
 # Lucifer
 
@@ -27,7 +29,17 @@ Lucifer chống lại yêu cầu đó, Lucifer triệu tập những thiên th�
 
 ## Ideas & thoughts:
 - [[Chiến tranh trên Thiên Đàng]]
-- Lucifer được mô tả trong [Isaiah]14:12
+- Lucifer được nhắc đến trong sách
+[[Isaiah]]
+![[Isa-14#v12]]
+![[Isa-14#v13]]
+![[Isa-14#v14]]
+![[Isa-14#v15]]
+![[Isa-14#v16]]
+![[Isa-14#v17]]
+[[Luke]]
+![[Luke-10#v18]]
+
 - [[Tổng lãnh thiên thần Michael]]
 - [[Grigori]] một thiên thần sa ngã thời [[Cựu Ước]] vì có quan hệ với loài người. [1](https://chuyenbian.com/bi-an-cau-chuyen-ve-grigori-thien-than-sa-nga-xuong-tran-gian-day-doa-loai-nguoi/)
 

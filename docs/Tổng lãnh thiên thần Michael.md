@@ -16,6 +16,8 @@ publish: False
 ## Notes:
 ![[Pasted image 20210920222514.png]]
 
+![[Jude-01#v9]]
+![[1 Thess-04#v16]]
 ## Ideas & thoughts:
 - [[Tổng lãnh thiên thần]]
 - Michael trong tiếng Do Thái có nghĩa là "Ai bằng Thiên Chúa?"

@@ -6,7 +6,7 @@ tags:
   - '#created/2021/Sep/20'
   - '#seed🥜'
   - '#permanent/concept'
-publish: False
+publish: True
 ---
 # Chiến tranh trên Thiên Đàng
 
@@ -15,6 +15,13 @@ Chiến tranh trên Thiên Đàng là một cuộc chiến xảy ra giữa [[Luc
 ![[Pasted image 20210920223016.png]]
 
 ## Ideas & thoughts:
+[[Revelation|Sách Khải Huyền]] [[Rev-12#v7|12:7-12]] có miêu tả lại cuộc chiến tranh này
+> ![[Rev-12#v7]]
+![[Rev-12#v8]]
+![[Rev-12#v9]]
+![[Rev-12#v10]]
+![[Rev-12#v11]]
+![[Rev-12#v12]]
 
 ## Questions:
 
