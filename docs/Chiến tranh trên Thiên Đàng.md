@@ -26,3 +26,4 @@ Chiến tranh trên Thiên Đàng là một cuộc chiến xảy ra giữa [[Luc
 ## Questions:
 
 ## Related:
+- [[Thiên Đàng]]

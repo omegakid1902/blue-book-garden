@@ -39,7 +39,9 @@ Lucifer chống lại yêu cầu đó, Lucifer triệu tập những thiên th�
 ![[Isa-14#v17]]
 [[Luke]]
 ![[Luke-10#v18]]
+Satan trong hình tượng con rắn cũng được xem là hiện thân của Lucifer
 
+![[Gen-03#v1]]
 - [[Tổng lãnh thiên thần Michael]]
 - [[Grigori]] một thiên thần sa ngã thời [[Cựu Ước]] vì có quan hệ với loài người. [1](https://chuyenbian.com/bi-an-cau-chuyen-ve-grigori-thien-than-sa-nga-xuong-tran-gian-day-doa-loai-nguoi/)
 
