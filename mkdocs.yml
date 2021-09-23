@@ -27,7 +27,6 @@ plugins:
       minify_html: true
   - section-index
   - mkdocs-newsletter 
-  - tags
 
 markdown_extensions:
   - abbr
