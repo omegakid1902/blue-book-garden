@@ -6,6 +6,7 @@ mkdocs-minify-plugin
 mkdocs-material
 mkdocs-section-index
 mkdocs-roamlinks-plugin
+mkdocs-git-tag-plugin
 pymdown-extensions
 git+git://github.com/lyz-code/mkdocs-autolinks-plugin.git
 mkdocs-newsletter
