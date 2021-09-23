@@ -1,0 +1,1 @@
+Để thay đổi một số thuộc tính ẩn của Zotfile, trong cửa sổ Zotero `Edit -> Preferences` tìm  `Advanced` và nhấp chuột `Config editor`
