@@ -5,13 +5,16 @@ import os
 
 zet_folder = "../zettelkasten/"
 
-if not os.path.exists('./docs'):
-    os.mkdir('./docs')
+rmtree('./docs')
+os.mkdir('./docs')
 
 original = "../zettelkasten/Spaces/Projects/Bible Study Kit/Scripture (BPT)/"
 target = "./docs/"
 move(original, target)
 
+original = "../zettelkasten/Zet"
+move(original, target)
+'''
 for file in os.listdir(zet_folder):
     if file.endswith(".md"):
         with open(os.path.join(zet_folder, file), encoding="utf8") as f:
@@ -35,3 +38,4 @@ for root, dirs, files in os.walk(zet_folder + "Zet/"):
                     copy(os.path.join(root, file), './docs/')
                 else:
                     pass
+'''
