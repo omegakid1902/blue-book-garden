@@ -14,7 +14,6 @@ They then mention the level of importance ([[Enthusiasm]]) to a person and how t
 
 Related: [[Flow, Insights, and Acting cannot be forced]]
 
----
 Let's look at those three conditions of flow again, this time, relating them to major factors controlling them and giving you the levers needed to master them.
 
 1. **Clear proximal goals** — Right now, what am I doing and what do I need to do?
