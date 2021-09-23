@@ -12,6 +12,7 @@ original = "../zettelkasten/Spaces/Projects/Bible Study Kit/Scripture (BPT)/"
 target = "./docs/"
 move(original, target)
 
+'''
 original = "../zettelkasten/Zet"
 move(original, target)
 '''
@@ -38,4 +39,4 @@ for root, dirs, files in os.walk(zet_folder + "Zet/"):
                     copy(os.path.join(root, file), './docs/')
                 else:
                     pass
-'''
+
