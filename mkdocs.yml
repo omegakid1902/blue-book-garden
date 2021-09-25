@@ -18,8 +18,8 @@ nav:
   - Contact: contact.md
 
 plugins:
-  - search:
-      prebuild_index: true
+  - search#:
+      #prebuild_index: true
   - roamlinks
   - autolinks
   - git-revision-date-localized:
