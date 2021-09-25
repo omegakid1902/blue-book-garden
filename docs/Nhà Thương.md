@@ -18,12 +18,8 @@ Thành Thang là vua thành lập nhà Thương. Vua cuối cùng của nhà th�
 
 ## Ideas & thoughts:
 - [ ] [[Đát Kỷ]], [[Đế Tân]] trong phong thần diễn nghĩa là cuối thời kỳ Nhà Thương
+
 ## Questions:
 
 
 ## Tham khảo:
-```dataview
-list
-from [[Nhà Thương]]
-sort file.name asc
-```

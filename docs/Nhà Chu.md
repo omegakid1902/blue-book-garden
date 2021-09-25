@@ -5,8 +5,6 @@ tags:
   - '#created/2021/Aug/28'
   - '#seed🥜'
   - '#permanent/nation'
-aliases:
-  - 
 publish: True
 ---
 # Nhà Chu
@@ -19,10 +17,4 @@ Tiền thân của [[Nhà Chu]] là [[Nhà Thương]], kế tục là [[Nhà T�
 
 ## Questions:
 
-
 ## Tham khảo:
-```dataview
-list
-from [[Nhà Chu]]
-sort file.name asc
-```
