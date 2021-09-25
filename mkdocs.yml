@@ -19,6 +19,7 @@ nav:
 
 plugins:
   - search
+      prebuild_index: true
   - roamlinks
   - autolinks
   - git-revision-date-localized:
