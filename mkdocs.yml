@@ -18,7 +18,7 @@ nav:
   - Contact: contact.md
 
 plugins:
-  - search#:
+  - search
       #prebuild_index: true
   - roamlinks
   - autolinks
