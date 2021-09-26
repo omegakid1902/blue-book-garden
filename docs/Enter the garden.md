@@ -11,22 +11,28 @@ publish: True
 
 Chào mừng bạn đã đến với khu vườn ghi chú.
 
-## Công cụ:
-[[📌 Workbench]]
-
-[[⏩ Quick note]]
-
-[[📑 Bookmark]]
-
-## Giải trí
-[[Phim hay]]
-
 ## Nghiên cứu
 [[❕ Topics to research]]
 
-[[Lịch Sử Việt Nam]]
+### Lịch sử
+- [[Lịch Sử Việt Nam]]
+- [[Lịch sử Trung Quốc]]
 
-[[Lịch sử Trung Quốc]]
+### Tôn giáo
+- [[Công Giáo]]
+- [[Do Thái Giáo]]
+- [[Ấn Độ giáo]]
 
-[[Health]]
+### Sinh học
+- [[Health]]
 
+### Personal
+- [[Self Improvement]]
+
+## Công cụ:
+- [[📌 Workbench]]
+- [[⏩ Quick note]]
+- [[📑 Bookmark]]
+
+## Giải trí
+- [[Phim hay]]
