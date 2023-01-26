@@ -28,6 +28,8 @@ colorama==0.4.4
     # via twine
 cryptography==3.4.8
     # via secretstorage
+csscompressor==0.9.5
+    # via mkdocs-minify-plugin
 deepdiff==5.5.0
     # via mkdocs-newsletter
 docutils==0.17.1
@@ -55,10 +57,7 @@ idna==3.2
     # via requests
 importlib-metadata==4.8.1
     # via
-    #   click
     #   keyring
-    #   markdown
-    #   mkdocs
     #   twine
 invoke==1.6.0
     # via python-semantic-release
@@ -67,8 +66,10 @@ jeepney==0.7.1
     #   keyring
     #   secretstorage
 jinja2==3.0.1
-    # via mkdocs
-jsmin==2.2.2
+    # via
+    #   mkdocs
+    #   tags-macros-plugin
+jsmin==3.0.1
     # via mkdocs-minify-plugin
 keyring==23.2.0
     # via twine
@@ -81,7 +82,7 @@ markupsafe==2.0.1
     # via jinja2
 mergedeep==1.3.4
     # via mkdocs
-mkdocs==1.2.2
+mkdocs==1.4.2
     # via
     #   -r requirements.in
     #   mkdocs-autolinks-plugin
@@ -91,7 +92,8 @@ mkdocs==1.2.2
     #   mkdocs-newsletter
     #   mkdocs-roamlinks-plugin
     #   mkdocs-section-index
-git+git://github.com/lyz-code/mkdocs-autolinks-plugin.git
+    #   tags-macros-plugin
+mkdocs-autolinks-plugin @ git+git://github.com/lyz-code/mkdocs-autolinks-plugin.git
     # via
     #   -r requirements.in
     #   mkdocs-newsletter
@@ -101,7 +103,7 @@ mkdocs-material==7.2.6
     # via -r requirements.in
 mkdocs-material-extensions==1.0.3
     # via mkdocs-material
-mkdocs-minify-plugin==0.4.0
+mkdocs-minify-plugin==0.6.2
     # via -r requirements.in
 mkdocs-newsletter==0.3.1
     # via -r requirements.in
@@ -173,6 +175,8 @@ secretstorage==3.3.1
     # via keyring
 semver==2.13.0
     # via python-semantic-release
+setuptools==58.0.4
+    # via setuptools-scm
 setuptools-scm==6.3.1
     # via dotty-dict
 six==1.16.0
@@ -185,6 +189,8 @@ smmap==4.0.0
     # via gitdb
 soupsieve==2.2.1
     # via beautifulsoup4
+tags-macros-plugin @ git+https://github.com/jldiaz/mkdocs-plugin-tags
+    # via -r requirements.in
 tomli==1.2.1
     # via setuptools-scm
 tomlkit==0.7.0
@@ -194,10 +200,7 @@ tqdm==4.62.2
 twine==3.4.2
     # via python-semantic-release
 typing-extensions==3.10.0.2
-    # via
-    #   gitpython
-    #   importlib-metadata
-    #   pydantic
+    # via pydantic
 urllib3==1.26.6
     # via requests
 watchdog==2.1.5
@@ -208,7 +211,3 @@ wheel==0.37.0
     # via python-semantic-release
 zipp==3.5.0
     # via importlib-metadata
-
-# The following packages are considered to be unsafe in a requirements file:
-setuptools==58.0.4
-    # via setuptools-scm
